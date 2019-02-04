@@ -13,6 +13,10 @@ a {
   color: #0770a2;
 }
 
+.monospace {
+  font-family: 'Consolas', monospace;
+}
+
 .navbar-reelyactive .navbar-brand {
   color: #fff;
 }
