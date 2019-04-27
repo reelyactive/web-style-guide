@@ -25,6 +25,9 @@ The core files are as follows:
 | /index.html                      | The webpage or web application content   |
 | /images/reelyactive-logo-nav.png | The logo in the top-left corner          |
 | /js/bootstrap.min.js             | The Bootstrap 4 JavaScripts, if required |
+| /js/fontawesome.min.js           | The FontAwesome JavaScripts, if required |
+| /js/solid.min.js                 | The FontAwesome Solid set, if required   |
+| /js/brands.min.js                | The FontAwesome Brand set, if required   |
 | /style/bootstrap.min.css         | The Bootstrap 4 cascading style sheet    |
 | /style/reelyactive.css           | The reelyActive overrides of Bootstrap 4 |
 
