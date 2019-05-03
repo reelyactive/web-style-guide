@@ -226,6 +226,41 @@
             </tbody>
           </table>
           <h2>
+            These are nav tabs
+            <small class="text-muted"> (h2) </small>
+          </h2>
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="firsttab" data-toggle="tab"
+                 href="#firstcontent" role="tab" aria-controls="firstcontent"
+                 aria-selected="true"> First </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="secondtab" data-toggle="tab"
+                 href="#secondcontent" role="tab" aria-controls="secondcontent"
+                 aria-selected="false"> Second </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="thirdtab" data-toggle="tab"
+                 href="#thirdcontent" role="tab" aria-controls="thirdcontent"
+                 aria-selected="false"> Third </a>
+            </li>
+          </ul>
+          <div class="tab-content tab-content-reelyactive">
+            <div class="tab-pane fade show active" id="firstcontent"
+                 role="tabpanel" aria-labelledby="firsttab">
+              <p> Content of the first tab. </p>
+            </div>
+            <div class="tab-pane fade" id="secondcontent" role="tabpanel"
+                 aria-labelledby="secondtab">
+              <p> Content of the second tab. </p>
+            </div>
+            <div class="tab-pane fade" id="thirdcontent" role="tabpanel"
+                 aria-labelledby="thirdtab">
+              <p> Content of the third tab. </p>
+            </div>
+          </div>
+          <h2>
             These are graphical elements
             <small class="text-muted"> (h2) </small>
           </h2>
