@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+          content="App Web Style Guide based on Bootstrap 4 and Font Awesome 5. All open source and/or Creative Commons.">
+    <link rel="stylesheet" href="../style/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/reelyactive.css">
+    <title> reelyActive Web Style Guide for Apps </title>
+    <!----- Structured, linked metadata (JSON-LD & Schema.org) ----->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org", 
+      "@type": "TechArticle",
+      "headline": "reelyActive Web Style Guide for Apps",
+      "description": "App Web style guide based on the Bootstrap 4 component library with  Font Awesome 5 icons.  All open source and/or Creative Commons.",
+      "proficiencyLevel": "Beginner",
+      "genre": "style guide",
+      "image": "https://reelyactive.github.io/web-style-guide/images/example-figure-image.png",
+      "author": {
+        "@type": "Organization",
+        "url": "https://www.reelyactive.com"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-reelyactive bg-reelyactive">
+      <a class="navbar-brand" href="https://www.reelyactive.com/">
+        <img src="../images/reelyactive-logo-nav.png" width="165" height="30"
+             alt="reelyActive">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarItems" aria-controls="navbarItems"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarItems">
+        <!-- Left-aligned navigation items -->
+        <ul class="navbar-nav mr-auto"></ul>
+        <!-- Right-aligned navigation items -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <!-- Link to home -->
+            <a class="nav-link"
+               href="https://reelyactive.github.io/web-style-guide">
+              <i class="fas fa-home"></i>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown"
+               role="button" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">
+              <i class="fas fa-question-circle"></i>
+            </a>
+            <!-- Info about tracking and open source software/licenses -->
+            <div class="dropdown-menu dropdown-menu-right"
+                 aria-labelledby="navbarDropdown">
+              <a class="dropdown-item"
+                 href="https://www.reelyactive.com/how-we-observe/#digital">
+                <i class="fas fa-mouse-pointer"></i>
+                Behaviour tracking free &nbsp;
+                <span class="badge badge-success">
+                  <i class="fas fa-user-shield"></i>
+                </span>
+                <!--<i class="fas fa-mouse-pointer"></i>
+                Page view tracking (gtag.js) &nbsp;
+                <span class="badge badge-warning">
+                  <i class="fas fa-user-tag"></i>
+                </span>-->
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" target="_blank"
+                 href="https://getbootstrap.com" >
+                <i class="fab fa-bootstrap"></i>
+                Bootstrap 4 &nbsp;
+                <span class="badge badge-light">
+                  <i class="fab fa-osi"></i> MIT
+                </span>
+              </a>
+              <a class="dropdown-item" target="_blank"
+                 href="https://fontawesome.com" >
+                <i class="fab fa-font-awesome"></i>
+                Font Awesome (Free) &nbsp;
+                <span class="badge badge-light">
+                  <i class="fab fa-creative-commons"></i>
+                  <i class="fab fa-osi"></i> MIT
+                </span>
+              </a>
+              <a class="dropdown-item" target="_blank"
+                 href="https://jquery.com" >
+                <i class="fab fa-js"></i>
+                JQuery &nbsp;
+                <span class="badge badge-light">
+                  <i class="fab fa-osi"></i> MIT
+                </span>
+              </a>
+              <a class="dropdown-item" target="_blank"
+                 href="https://github.com/reelyactive/web-style-guide/" >
+                <i class="fas fa-code"></i>
+                Web Style Guide &nbsp;
+                <span class="badge badge-light">
+                  <i class="fab fa-osi"></i> MIT
+                </span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" target="_blank"
+                 href="https://www.reelyactive.com/made-in-montreal/" >
+                <i class="fab fa-canadian-maple-leaf"></i>
+                Made in Montr&eacute;al &nbsp;
+                <i class="fas fa-city"></i>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Content -->
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
+          <h1 class="mt-4">
+            reelyActive Web Style Guide
+            <small class="text-muted"> for Apps </small>
+          </h1>
+          <p class="lead"> This page serves as a basic skeleton for web apps such as those included with <a href="https://github.com/reelyactive/hlc-server" target="_blank">hlc-server</a>. </p>
+          <!----- Commonly assigned Font Awesome icons ----->
+          <h2>
+            Commonly assigned Font Awesome icons
+          </h2>
+          <p class="lead"> The following table specifies assignments for <b>events</b>. </p>
+          <table class="table table-striped">
+            <thead class="thead-reelyactive">
+              <tr>
+                <th scope="col">Icon</th>
+                <th scope="col">class</th>
+                <th scope="col">Assignment</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><i class="fas fa-exchange-alt"></i></td>
+                <td><code>fas fa-exchange-alt</code></td>
+                <td>Events</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-sign-in-alt"></i></td>
+                <td><code>fas fa-sign-in-alt</code></td>
+                <td><em>Appearance</em> event</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-route"></i></td>
+                <td><code>fas fa-route</code></td>
+                <td><em>Displacement</em> event</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-info"></i></td>
+                <td><code>fas fa-info</code></td>
+                <td><em>Packets</em> event</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-heartbeat"></i></td>
+                <td><code>fas fa-heartbeat</code></td>
+                <td><em>Keep-Alive</em> event</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-sign-out-alt"></i></td>
+                <td><code>fas fa-sign-out-alt</code></td>
+                <td><em>Disappearance</em> event</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="lead"> The following table specifies assignments for <b>raddecs</b>. </p>
+          <table class="table table-striped">
+            <thead class="thead-reelyactive">
+              <tr>
+                <th scope="col">Icon</th>
+                <th scope="col">class</th>
+                <th scope="col">Assignment</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><i class="fas fa-barcode"></i></td>
+                <td><code>fas fa-barcode</code></td>
+                <td>transmitterId</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-map-pin"></i></td>
+                <td><code>fas fa-map-pin</code></td>
+                <td>receiverId</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-info-circle"></i></td>
+                <td><code>fas fa-info-circle</code></td>
+                <td>transmitterIdType & receiverIdType</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-signal"></i></td>
+                <td><code>fas fa-signal</code></td>
+                <td>rssi</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-clock"></i></td>
+                <td><code>fas fa-clock</code></td>
+                <td>timestamp</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-exchange-alt"></i></td>
+                <td><code>fas fa-exchange-alt</code></td>
+                <td>events</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="lead"> The following table specifies assignments for <b>filters</b>. </p>
+          <table class="table table-striped">
+            <thead class="thead-reelyactive">
+              <tr>
+                <th scope="col">Icon</th>
+                <th scope="col">class</th>
+                <th scope="col">Assignment</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><i class="fas fa-filter"></i></td>
+                <td><code>fas fa-filter</code></td>
+                <td>ID filter and such</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-sort"></i></td>
+                <td><code>fas fa-sort</code></td>
+                <td>Sort by</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-eye"></i></td>
+                <td><code>fas fa-eye</code></td>
+                <td>Displaying</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-scroll"></i></td>
+                <td><code>fas fa-scroll</code></td>
+                <td>Query template</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="lead"> The following table specifies assignments for <b>sensors</b> & <b>payloads</b>. </p>
+          <table class="table table-striped">
+            <thead class="thead-reelyactive">
+              <tr>
+                <th scope="col">Icon</th>
+                <th scope="col">class</th>
+                <th scope="col">Assignment</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><i class="fas fa-battery-half"></i></td>
+                <td><code>fas fa-battery-half</code></td>
+                <td>Battery level</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-thermometer-half"></i></td>
+                <td><code>fas fa-thermometer-half</code></td>
+                <td>Temperature</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-rocket"></i></td>
+                <td><code>fas fa-rocket</code></td>
+                <td>Acceleration</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-water"></i></td>
+                <td><code>fas fa-water</code></td>
+                <td>Humidity</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-lightbulb"></i></td>
+                <td><code>fas fa-lightbulb</code></td>
+                <td>Light</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-hand-pointer"></i></td>
+                <td><code>fas fa-hand-pointer</code></td>
+                <td>Touch & capacitive sense</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-magnet"></i></td>
+                <td><code>fas fa-magnet</code></td>
+                <td>Magnetic field</td>
+              </tr>
+            </tbody>
+          </table>
+          <!----- Where to next ----->
+          <hr>
+          <h2> Where to next? </h2>
+          <p class="lead"> More Web Style Guide resources.  An app would <i>not</i> normally include this section. </p>
+          <ul class="list-unstyled mb-4">
+            <li class="media my-2">
+              <a href="../">
+                <img src="../images/icon-reelyactive.png"
+                     class="align-self-start mr-3">
+              </a>
+              <div class="media-body">
+                <a href="../">
+                  <h5 class="mt-0 mb-1"> reelyActive Web Style Guide </h5>
+                </a>
+                Our master Web Style Guide.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <a href="https://github.com/reelyactive/projectname"> [project name] </a>
+      &nbsp; | &nbsp;
+      <a href="https://www.reelyactive.com"> &copy; reelyActive 2018-2019 </a>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script defer src="../js/solid.min.js"></script>
+    <script defer src="../js/brands.min.js"></script>
+    <script defer src="../js/fontawesome.min.js"></script>
+    <script src="../js/jquery-3.4.0.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
