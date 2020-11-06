@@ -1,0 +1,42 @@
+{
+  "name": "web-style-guide",
+  "homepage": "https://github.com/reelyactive/web-style-guide/",
+  "author": {
+    "name": "reelyActive",
+    "email": "info@reelyactive.com"
+  },
+  "description": "reelyActive's Web Style Guide based on Bootstrap 5.  We believe in an open Internet of Things.",
+  "keywords": [
+    "reelyActive",
+    "web style guide"
+  ],
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./dist/js/bootstrappyactive.js",
+  "scripts": {
+    "css": "npm-run-all css-compile css-minify",
+    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:dist/style/",
+    "css-minify": "cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output dist/style/bootstrappyactive.min.css dist/style/bootstrappyactive.css",
+    "js": "cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js dist/js/bootstrappyactive.bundle.min.js && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map dist/js/bootstrappyactive.bundle.min.js.map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/web-style-guide.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "bootstrap": "next",
+    "clean-css-cli": "^4.3.0",
+    "sass": "^1.29.0"
+  },
+  "bugs": {
+    "url": "https://github.com/reelyactive/web-style-guide/issues"
+  },
+  "contributors": [
+    { "name": "Jeffrey Dungen" }
+  ],
+  "license": "MIT"
+}
