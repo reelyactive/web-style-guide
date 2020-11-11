@@ -1,7 +1,7 @@
 reelyActive Web Style Guide
 ===========================
 
-Style guide for reelyActive webpages and web apps, based on [Bootstrap 4](https://getbootstrap.com).  Everything is open source and [MIT License](https://opensource.org/licenses/MIT).  We believe in an open Internet of Things.
+Style guide for reelyActive webpages and web apps, based on [Bootstrap 5](https://v5.getbootstrap.com).  Everything is open source and [MIT License](https://opensource.org/licenses/MIT).  We believe in an open Internet of Things.
 
 A webpage template based on this style guide is available at [reelyactive.github.io/web-style-guide/](https://reelyactive.github.io/web-style-guide/).
 
@@ -12,11 +12,10 @@ File Structure
 The files are organised in the following hierarchy:
 
 | Directory | File(s)          | Description                                    |
-|:----------|:-----------------|:-----------------------------------------------|
-| /         | .html            | All the content                                |
-| /images/  | .jpg, .png, etc. | All images and graphics supporting the content |
-| /js/      | .js              | Any JavaScripts supporting the content         |
-| /style/   | .css             | All the cascading style sheets                 |
+|:----------|:-----------------|:----------------------------------------------|
+| /         | .html            | All the content                               |
+| /images/  | .jpg, .png, etc. | All images and graphics supporting the content|
+| /dist/    | .css .js         | All the cascading style sheets and JavaScripts|
 
 The core files are as follows:
 
@@ -24,13 +23,11 @@ The core files are as follows:
 |:---------------------------------|:-----------------------------------------|
 | /index.html                      | The webpage or web application content   |
 | /images/reelyactive-logo-nav.png | The logo in the top-left corner          |
-| /js/bootstrap.bundle.min.js      | The Bootstrap 4 JavaScripts, if required |
-| /js/jquery-3.4.0.min.js          | JQuery to support Bootstrap, if required |
+| /js/boostrappyactive.bundle.min.js | reelyActivated Bootstrap 5 JS          |
 | /js/fontawesome.min.js           | The FontAwesome JavaScripts, if required |
 | /js/solid.min.js                 | The FontAwesome Solid set, if required   |
 | /js/brands.min.js                | The FontAwesome Brand set, if required   |
-| /style/bootstrap.min.css         | The Bootstrap 4 cascading style sheet    |
-| /style/reelyactive.css           | The reelyActive overrides of Bootstrap 4 |
+| /style/bootstrappyactive.min.css | reelyActivated Bootstrap 5 CSS           |
 
 
 License
@@ -38,7 +35,7 @@ License
 
 MIT License
 
-Copyright (c) 2018-2019 [reelyActive](https://www.reelyactive.com)
+Copyright (c) 2018-2020 [reelyActive](https://www.reelyactive.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
