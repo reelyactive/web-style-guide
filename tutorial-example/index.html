@@ -159,29 +159,29 @@
             </li>
           </ul>
           <!----- Step 1 of X ----->
-          <div class="jumbotron jumbotron-fluid my-4">
-            <div class="container">
-              <h2 id="step01">
+          <div class="card my-4 bg-light border-0">
+            <div class="card-body pt-4">
+              <h2 id="step01" class="card-title my-2">
                 Title of a step in a tutorial &nbsp;
                 <a href="#step01" class="badge bg-primary">Step 1 of X</a>
               </h2>
               <p class="lead"> Summarise the step in a few words using friendly terms. </p>
               <hr>
               <dl class="row">
-                <dt class="col-sm-3">Why use a jumbotron?</dt>
+                <dt class="col-sm-3">Why use a bg-light card?</dt>
                 <dd class="col-sm-9">Because it provides a clear break in the content and makes the title stand out.</dd>
                 <dt class="col-sm-3">Why use badges for step numbers?</dt>
                 <dd class="col-sm-9">Because badges stand out nicely.  Moreover, the badge serves as a local hyperlink (#) for visitors to easily link that step.</dd>
               </dl>
+              <img src="../images/tutorial-step-image.png"
+                   class="card-img-bottom" alt="960px wide and not too high">
             </div>
           </div>
-          <img src="../images/example-jumbotron-image.jpg" class="img-fluid"
-               alt="960px wide and not too high">
           <h3 class="mt-4">
             First sub-step title
             <small class="text-muted"> Part 1 </small>
           </h3>
-          <p> <span class="badge badge-warning"><i class="fas fa-exclamation-triangle"></i></span> This is an example of a warning to the user. </p>
+          <p> <span class="badge bg-warning"><i class="fas fa-exclamation-triangle"></i></span> This is an example of a warning to the user. </p>
           <p> Content goes here. </p>
           <ol>
             <li> An ordered list </li>
@@ -191,7 +191,7 @@
             Second sub-step title
             <small class="text-muted"> Part 2 </small>
           </h3>
-          <p> <span class="badge badge-success"><i class="fas fa-exclamation-circle"></i></span> This is an example of some <i>did-you-know</i> info for the user. </p>
+          <p> <span class="badge bg-success"><i class="fas fa-exclamation-circle"></i></span> This is an example of some <i>did-you-know</i> info for the user. </p>
           <p> Content goes here. </p>
           <pre><code>// This is &lt;code&gt; in a &lt;pre&gt; block
 if(isMultipleLines) {
