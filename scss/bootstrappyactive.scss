@@ -61,6 +61,14 @@ body {
   padding: .5rem 1rem;
 }
 
+.btn-secondary {
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+}
+
 .badge {
   text-decoration: none;
 }
@@ -71,6 +79,27 @@ a.badge {
 
 a.badge:hover {
   color: rgba(255, 255, 255, 1.0);
+}
+
+.owl-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  background-image: url('/images/herowl.png');
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  .card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-color: #ffffff;
+  }
 }
 
 .footer {
