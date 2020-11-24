@@ -12,13 +12,14 @@
   ],
   "version": "1.0.0",
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=10.0.0"
   },
   "main": "./dist/js/bootstrappyactive.js",
   "scripts": {
     "css": "npm-run-all css-compile css-minify",
     "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:dist/style/",
     "css-minify": "cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output dist/style/bootstrappyactive.min.css dist/style/bootstrappyactive.css",
+    "fa": "webpack",
     "js": "cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js dist/js/bootstrappyactive.bundle.min.js && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map dist/js/bootstrappyactive.bundle.min.js.map"
   },
   "repository": {
@@ -28,16 +29,23 @@
   "dependencies": {
   },
   "devDependencies": {
-    "bootstrap": "next",
+    "bootstrap": "^5.0.0-alpha3",
     "clean-css-cli": "^4.3.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.29.0"
+    "sass": "^1.29.0",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
   },
   "bugs": {
     "url": "https://github.com/reelyactive/web-style-guide/issues"
   },
   "contributors": [
-    { "name": "Jeffrey Dungen" }
+    {
+      "name": "Jeffrey Dungen"
+    }
   ],
   "license": "MIT"
 }
