@@ -4,6 +4,7 @@ import { library, dom } from '@fortawesome/fontawesome-svg-core';
 import {
     faBarcode as fasBarcode,
     faBatteryHalf as fasBatteryHalf,
+    faBroadcastTower as fasBroadcastTower,
     faCheck as fasCheck,
     faCity as fasCity,
     faClock as fasClock,
@@ -21,7 +22,9 @@ import {
     faInfo as fasInfo,
     faInfoCircle as fasInfoCircle,
     faLightbulb as fasLightbulb,
+    faLink as fasLink,
     faMagnet as fasMagnet,
+    faMapMarkedAlt as fasMapMarkedAlt,
     faMapPin as fasMapPin,
     faMousePointer as fasMousePointer,
     faQuestionCircle as fasQuestionCircle,
@@ -31,7 +34,10 @@ import {
     faSignal as fasSignal,
     faSignInAlt as fasSignInAlt,
     faSignOutAlt as fasSignOutAlt,
+    faSitemap as fasSitemap,
     faSort as fasSort,
+    faStopwatch as fasStopwatch,
+    faTags as fasTags,
     faThermometerHalf as fasThermometerHalf,
     faUserShield as fasUserShield,
     faUserTag as fasUserTag,
@@ -47,8 +53,12 @@ import {
     faCreativeCommons as fabCreativeCommons,
     faFacebook as fabFacebook,
     faFontAwesome as fabFontAwesome,
+    faGithub as fabGithub,
+    faInstagram as fabInstagram,
     faJs as fabJs,
-    faOsi as fabOsi
+    faLinkedin as fabLinkedin,
+    faOsi as fabOsi,
+    faTwitter as fabTwitter
 } from '@fortawesome/free-brands-svg-icons';
 
 // Add icons to library (in alphabetical order)
@@ -56,6 +66,7 @@ library.add(
     // Solid
     fasBarcode,
     fasBatteryHalf,
+    fasBroadcastTower,
     fasCheck,
     fasCity,
     fasClock,
@@ -73,7 +84,9 @@ library.add(
     fasInfo,
     fasInfoCircle,
     fasLightbulb,
+    fasLink,
     fasMagnet,
+    fasMapMarkedAlt,
     fasMapPin,
     fasMousePointer,
     fasQuestionCircle,
@@ -83,7 +96,10 @@ library.add(
     fasSignal,
     fasSignInAlt,
     fasSignOutAlt,
+    fasSitemap,
     fasSort,
+    fasStopwatch,
+    fasTags,
     fasThermometerHalf,
     fasUserShield,
     fasUserTag,
@@ -97,8 +113,12 @@ library.add(
     fabCreativeCommons,
     fabFacebook,
     fabFontAwesome,
+    fabGithub,
+    fabInstagram,
     fabJs,
-    fabOsi
+    fabLinkedin,
+    fabOsi,
+    fabTwitter
 );
 
 // Replace any existing <i> tags with <svg> and set up a MutationObserver to
