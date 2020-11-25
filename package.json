@@ -14,13 +14,13 @@
   "engines": {
     "node": ">=10.0.0"
   },
-  "main": "./dist/js/bootstrappyactive.js",
+  "main": "./js/bootstrappyactive.js",
   "scripts": {
     "css": "npm-run-all css-compile css-minify",
-    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:dist/style/",
-    "css-minify": "cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output dist/style/bootstrappyactive.min.css dist/style/bootstrappyactive.css",
+    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:style/",
+    "css-minify": "cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output style/bootstrappyactive.min.css style/bootstrappyactive.css",
     "fa": "webpack",
-    "js": "cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js dist/js/bootstrappyactive.bundle.min.js && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map dist/js/bootstrappyactive.bundle.min.js.map"
+    "js": "cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js js/bootstrappyactive.bundle.min.js && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map js/bootstrappyactive.bundle.min.js.map"
   },
   "repository": {
     "type": "git",
