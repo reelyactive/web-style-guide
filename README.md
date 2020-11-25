@@ -15,19 +15,18 @@ The files are organised in the following hierarchy:
 |:----------|:-----------------|:----------------------------------------------|
 | /         | .html            | All the content                               |
 | /images/  | .jpg, .png, etc. | All images and graphics supporting the content|
-| /dist/    | .css .js         | All the cascading style sheets and JavaScripts|
+| /style/   | .css             | All the cascading style sheets (Bootstrap)    |
+| /js/      | .js              | All the JavaScripts (Bootstrap & Font Awesome)|
 
 The core files are as follows:
 
-| File                             | Purpose                                  |
-|:---------------------------------|:-----------------------------------------|
-| /index.html                      | The webpage or web application content   |
-| /images/reelyactive-logo-nav.png | The logo in the top-left corner          |
+| File                               | Purpose                                |
+|:-----------------------------------|:---------------------------------------|
+| /index.html                        | The webpage or web application content |
+| /images/reelyactive-logo-nav.png   | The logo in the top-left corner        |
 | /js/boostrappyactive.bundle.min.js | reelyActivated Bootstrap 5 JS          |
-| /js/fontawesome.min.js           | The FontAwesome JavaScripts, if required |
-| /js/solid.min.js                 | The FontAwesome Solid set, if required   |
-| /js/brands.min.js                | The FontAwesome Brand set, if required   |
-| /style/bootstrappyactive.min.css | reelyActivated Bootstrap 5 CSS           |
+| /js/fontawesome-reelyactive.min.js | reelyActive's subset of Font Awesome   |
+| /style/bootstrappyactive.min.css   | reelyActivated Bootstrap 5 CSS         |
 
 
 License
