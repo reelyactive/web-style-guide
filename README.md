@@ -29,6 +29,30 @@ The core files are as follows:
 | /style/bootstrappyactive.min.css   | reelyActivated Bootstrap 5 CSS         |
 
 
+Building Bootstrap and Font Awesome
+-----------------------------------
+
+Install the devDependencies, with the following executable from the command line:
+- sass
+- cleancss (clean-css-cli)
+- webpack
+- npm-run-all
+
+Then build (and minify) the Bootstrap 5 CSS with:
+
+    npm run css
+
+Then build the Bootstrap 5 JS with:
+
+    npm run js
+
+Then build (and minify) the Font Awesome subset with:
+
+    npm run fa
+
+The built files are copied to the /js and /style directories.
+
+
 License
 -------
 
