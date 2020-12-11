@@ -10,7 +10,7 @@
     "reelyActive",
     "web style guide"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "node": ">=10.0.0"
   },
@@ -26,10 +26,9 @@
     "type": "git",
     "url": "https://github.com/reelyactive/web-style-guide.git"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "bootstrap": "^5.0.0-alpha3",
+    "bootstrap": "^5.0.0-beta1",
     "clean-css-cli": "^4.3.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
