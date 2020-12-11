@@ -53,6 +53,10 @@ body {
   }
 }
 
+.barnarrow {
+  max-height: 58px;
+}
+
 .tab-content-border {
   border: 1px solid $gray-300;
   border-top: 0px;
@@ -79,6 +83,34 @@ a.badge {
 
 a.badge:hover {
   color: rgba(255, 255, 255, 1.0);
+}
+
+@keyframes breathingAnimation {
+  0%   { opacity:0; }
+  25%  { opacity:1; }
+  100% { opacity:0; }
+}
+@-o-keyframes breathingAnimation{
+  0%   { opacity:0; }
+  25%  { opacity:1; }
+  100% { opacity:0; }
+}
+@-moz-keyframes breathingAnimation{
+  0%   { opacity:0; }
+  25%  { opacity:1; }
+  100% { opacity:0; }
+}
+@-webkit-keyframes breathingAnimation{
+  0%   { opacity:0; }
+  25%  { opacity:1; }
+  100% { opacity:0; }
+}
+
+.animate-breathing {
+  -webkit-animation: breathingAnimation 4s infinite;
+  -moz-animation: breathingAnimation 4s infinite;
+  -o-animation: breathingAnimation 4s infinite;
+  animation: breathingAnimation 4s infinite;
 }
 
 .owl-to-action {
