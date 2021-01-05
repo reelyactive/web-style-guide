@@ -71,6 +71,7 @@ import {
     faUserFriends as fasUserFriends,
     faUserShield as fasUserShield,
     faUserTag as fasUserTag,
+    faVirus as fasVirus,
     faWater as fasWater,
     faWifi as fasWifi
 } from '@fortawesome/free-solid-svg-icons';
@@ -94,7 +95,8 @@ import {
     faNpm as fabNpm,
     faOsi as fabOsi,
     faRaspberryPi as fabRaspberryPi,
-    faTwitter as fabTwitter
+    faTwitter as fabTwitter,
+    faYoutube as fabYoutube
 } from '@fortawesome/free-brands-svg-icons';
 
 // Add icons to library (in alphabetical order)
@@ -169,6 +171,7 @@ library.add(
     fasUserFriends,
     fasUserShield,
     fasUserTag,
+    fasVirus,
     fasWater,
     fasWifi,
 
@@ -190,7 +193,8 @@ library.add(
     fabNpm,
     fabOsi,
     fabRaspberryPi,
-    fabTwitter
+    fabTwitter,
+    fabYoutube
 );
 
 // Replace any existing <i> tags with <svg> and set up a MutationObserver to
