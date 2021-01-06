@@ -2,14 +2,17 @@ import { library, dom } from '@fortawesome/fontawesome-svg-core';
 
 // Import solid weight icons (in alphabetical order)
 import {
+    faBan as fasBan,
     faBarcode as fasBarcode,
     faBatteryHalf as fasBatteryHalf,
+    faBell as fasBell,
     faBlog as fasBlog,
     faBookOpen as fasBookOpen,
     faBroadcastTower as fasBroadcastTower,
     faBuilding as fasBuilding,
     faChartLine as fasChartLine,
     faCheck as fasCheck,
+    faCheckCircle as fasCheckCircle,
     faCity as fasCity,
     faClock as fasClock,
     faCloud as fasCloud,
@@ -43,6 +46,7 @@ import {
     faMagnet as fasMagnet,
     faMapMarkedAlt as fasMapMarkedAlt,
     faMapPin as fasMapPin,
+    faMobileAlt as fasMobileAlt,
     faMousePointer as fasMousePointer,
     faNetworkWired as fasNetworkWired,
     faPeopleArrows as fasPeopleArrows,
@@ -68,6 +72,9 @@ import {
     faTags as fasTags,
     faTerminal as fasTerminal,
     faThermometerHalf as fasThermometerHalf,
+    faTimes as fasTimes,
+    faTimesCircle as fasTimesCircle,
+    faTrash as fasTrash,
     faUserFriends as fasUserFriends,
     faUserShield as fasUserShield,
     faUserTag as fasUserTag,
@@ -78,6 +85,7 @@ import {
 
 // Import brand icons (in alphabetical order)
 import {
+    faApple as fabApple,
     faBluetooth as fabBluetooth,
     faBootstrap as fabBootstrap,
     faCanadianMapleLeaf as fabCanadianMapleLeaf,
@@ -96,20 +104,24 @@ import {
     faOsi as fabOsi,
     faRaspberryPi as fabRaspberryPi,
     faTwitter as fabTwitter,
+    faWindows as fabWindows,
     faYoutube as fabYoutube
 } from '@fortawesome/free-brands-svg-icons';
 
 // Add icons to library (in alphabetical order)
 library.add(
     // Solid
+    fasBan,
     fasBarcode,
     fasBatteryHalf,
+    fasBell,
     fasBlog,
     fasBookOpen,
     fasBroadcastTower,
     fasBuilding,
     fasChartLine,
     fasCheck,
+    fasCheckCircle,
     fasCity,
     fasClock,
     fasCloud,
@@ -143,6 +155,7 @@ library.add(
     fasMagnet,
     fasMapMarkedAlt,
     fasMapPin,
+    fasMobileAlt,
     fasMousePointer,
     fasNetworkWired,
     fasPeopleArrows,
@@ -168,6 +181,9 @@ library.add(
     fasTags,
     fasTerminal,
     fasThermometerHalf,
+    fasTimes,
+    fasTimesCircle,
+    fasTrash,
     fasUserFriends,
     fasUserShield,
     fasUserTag,
@@ -176,6 +192,7 @@ library.add(
     fasWifi,
 
     // Brands
+    fabApple,
     fabBluetooth,
     fabBootstrap,
     fabCanadianMapleLeaf,
@@ -194,6 +211,7 @@ library.add(
     fabOsi,
     fabRaspberryPi,
     fabTwitter,
+    fabWindows,
     fabYoutube
 );
 
