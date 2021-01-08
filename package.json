@@ -20,7 +20,7 @@
     "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:style/",
     "css-minify": "cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output style/bootstrappyactive.min.css style/bootstrappyactive.css",
     "fa": "webpack",
-    "js": "cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js js/bootstrappyactive.bundle.min.js && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map js/bootstrappyactive.bundle.min.js.map"
+    "js": "cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js js/bootstrappyactive.bundle.min.js && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map js/bootstrappyactive.bundle.min.js.map && cp node_modules/cytoscape/dist/cytoscape.min.js js/cytoscape.min.js"
   },
   "repository": {
     "type": "git",
@@ -28,11 +28,12 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "bootstrap": "^5.0.0-beta1",
-    "clean-css-cli": "^4.3.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "bootstrap": "^5.0.0-beta1",
+    "clean-css-cli": "^4.3.0",
+    "cytoscape": "^3.17.1",
     "npm-run-all": "^4.1.5",
     "sass": "^1.29.0",
     "webpack": "^5.6.0",
