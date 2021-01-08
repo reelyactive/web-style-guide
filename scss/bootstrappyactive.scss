@@ -113,6 +113,10 @@ a.badge:hover {
   animation: breathingAnimation 4s infinite;
 }
 
+.hover-shadow:hover {
+  box-shadow: $box-shadow;
+}
+
 .owl-to-action {
   display: flex;
   justify-content: center;
