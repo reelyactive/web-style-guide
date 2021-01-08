@@ -123,6 +123,7 @@ a.badge:hover {
   align-items: center;
   text-align: center;
   overflow: hidden;
+  margin-bottom: 60px;
   background-image: url('/images/herowl.png');
   -webkit-background-size: contain;
   -moz-background-size: contain;
@@ -139,6 +140,7 @@ a.badge:hover {
 }
 
 .footer {
+  position: absolute;
   bottom: 0;
   width: 100%;
   height: 60px;
