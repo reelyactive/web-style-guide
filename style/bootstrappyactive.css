@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 /*!
@@ -10652,6 +10652,27 @@ textarea.form-control-lg {
   border-color: #ffffff;
 }
 
+.hero {
+  max-width: 100vw;
+  height: calc(100vh - 58px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.hero .card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-color: #ffffff;
+}
+
 .barnarrow {
   max-height: 58px;
 }
@@ -10689,6 +10710,14 @@ a.badge:hover {
   height: calc(100% - 120px);
   position: absolute;
   top: 60px;
+  left: 0px;
+}
+
+#cy-hero {
+  width: 100%;
+  height: calc(100vh - 58px);
+  position: absolute;
+  top: 58px;
   left: 0px;
 }
 
@@ -10753,7 +10782,6 @@ a.badge:hover {
   align-items: center;
   text-align: center;
   overflow: hidden;
-  margin-bottom: 60px;
   background-image: url("/images/herowl.png");
   -webkit-background-size: contain;
   -moz-background-size: contain;
