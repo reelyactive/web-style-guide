@@ -1,13 +1,39 @@
-// Bootstrap 5 overrides
-// ---------------------
+// Bootstrap 5 variable overrides
+// ------------------------------
 
-// Colour overrides
 $primary: #0770a2;
 $secondary: #ff6900;
 $success: #aec844;
 $info: #5a5a5a;
 $dark: #263238;
 
+
+// Bootstrap 5 required imports
+// ----------------------------
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+// Bootstrap 5 variable overrides
+// ------------------------------
+
+$custom-colors: (
+  "ambient": #83b7d0
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+// Bootstrap 5 optional imports
+// ----------------------------
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// reelyActive-specific CSS overrides
+// ----------------------------------
 
 html {
   position: relative;
@@ -18,12 +44,6 @@ html {
 body {
   padding-bottom: 60px;
 }
-
-
-// Bootstrap 5 imports
-// -------------------
-
-@import "../node_modules/bootstrap/scss/bootstrap";
 
 
 // reelyActive-specific CSS elements
