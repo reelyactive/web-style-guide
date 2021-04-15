@@ -266,6 +266,60 @@
             <button type="button" class="btn btn-dark btn-sm"> Dark </button>
             <button type="button" class="btn btn-link btn-sm"> Link </button>
           </p>
+          <!-- Offcanvas -->
+          <h2 class="mt-5"> Offcanvas </h2>
+          <h5 class="font-monospace text-muted mt-4"> offcanvas </h5>
+          <button class="btn btn-primary btn-sm" type="button"
+                  data-bs-toggle="offcanvas" data-bs-target="#offcanvasStart"
+                  aria-controls="offcanvasStart"> offcanvas-start </button>
+          <button class="btn btn-primary btn-sm" type="button"
+                  data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
+                  aria-controls="offcanvasBottom"> offcanvas-bottom </button>
+          <button class="btn btn-primary btn-sm" type="button"
+                  data-bs-toggle="offcanvas" data-bs-target="#offcanvasEnd"
+                  aria-controls="offcanvasEnd"> offcanvas-end </button>
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true"
+               data-bs-backdrop="false" tabindex="-1" id="offcanvasStart"
+               aria-labelledby="offcanvasStartLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasStartLabel">
+                offcanvas-header
+              </h5>
+              <button type="button" class="btn-close text-reset"
+                      data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body small">
+              offcanvas-body
+            </div>
+          </div>
+          <div class="offcanvas offcanvas-bottom" data-bs-scroll="true"
+               data-bs-backdrop="false" tabindex="-1"
+               id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasBottomLabel">
+                offcanvas-header
+              </h5>
+              <button type="button" class="btn-close text-reset"
+                      data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body small">
+              offcanvas-body
+            </div>
+          </div>
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true"
+               data-bs-backdrop="false" tabindex="-1" id="offcanvasEnd"
+               aria-labelledby="offcanvasEndLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasEndLabel">
+                offcanvas-header
+              </h5>
+              <button type="button" class="btn-close text-reset"
+                      data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body small">
+              offcanvas-body
+            </div>
+          </div>
         </div>
       </div>
     </div>
