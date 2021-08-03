@@ -114,6 +114,7 @@ import {
     faNpm as fabNpm,
     faOsi as fabOsi,
     faRaspberryPi as fabRaspberryPi,
+    faSlack as fabSlack,
     faTwitter as fabTwitter,
     faWindows as fabWindows,
     faYoutube as fabYoutube
@@ -232,6 +233,7 @@ library.add(
     fabNpm,
     fabOsi,
     fabRaspberryPi,
+    fabSlack,
     fabTwitter,
     fabWindows,
     fabYoutube
