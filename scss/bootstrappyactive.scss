@@ -14,6 +14,7 @@ $dark: #263238;
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities";
 
 
 // Bootstrap 5 variable overrides
@@ -24,6 +25,21 @@ $custom-colors: (
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "width": map-merge(
+      map-get($utilities, "width"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "width"), "values"),
+          (20: 20%, 80: 80%),
+        ),
+      ),
+    ),
+  )
+);
 
 
 // Bootstrap 5 optional imports
