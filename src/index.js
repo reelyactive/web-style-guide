@@ -2,6 +2,7 @@ import { library, dom } from '@fortawesome/fontawesome-svg-core';
 
 // Import solid weight icons (in alphabetical order)
 import {
+    faArrowCircleUp as fasArrowCircleUp,
     faBan as fasBan,
     faBarcode as fasBarcode,
     faBatteryHalf as fasBatteryHalf,
@@ -125,6 +126,7 @@ import {
 // Add icons to library (in alphabetical order)
 library.add(
     // Solid
+    fasArrowCircleUp,
     fasBan,
     fasBarcode,
     fasBatteryHalf,
