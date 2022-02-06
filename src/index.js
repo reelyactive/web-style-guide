@@ -20,6 +20,7 @@ import {
     faCode as fasCode,
     faCog as fasCog,
     faCompass as fasCompass,
+    faCompressAlt as fasCompressAlt,
     faCopy as fasCopy,
     faDatabase as fasDatabase,
     faDollarSign as fasDollarSign,
@@ -94,6 +95,7 @@ import {
     faUserTag as fasUserTag,
     faUserTie as fasUserTie,
     faVirus as fasVirus,
+    faWalking as fasWalking,
     faWater as fasWater,
     faWifi as fasWifi
 } from '@fortawesome/free-solid-svg-icons';
@@ -145,6 +147,7 @@ library.add(
     fasCode,
     fasCog,
     fasCompass,
+    fasCompressAlt,
     fasCopy,
     fasDatabase,
     fasDollarSign,
@@ -219,6 +222,7 @@ library.add(
     fasUserTag,
     fasUserTie,
     fasVirus,
+    fasWalking,
     fasWater,
     fasWifi,
 
