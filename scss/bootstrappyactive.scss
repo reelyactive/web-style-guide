@@ -1,47 +1,29 @@
-// Bootstrap 5 variable overrides
-// ------------------------------
+// ------------------------------------------------------------
+// Reference: https://getbootstrap.com/docs/5.2/customize/sass/
+// ------------------------------------------------------------
 
+
+// 1. Include functions first (to manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Default variable overrides
 $primary: #0770a2;
 $secondary: #ff6900;
 $success: #aec844;
 $info: #5a5a5a;
 $dark: #263238;
 
-
-// Bootstrap 5 required imports
-// ----------------------------
-
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/utilities";
-
-
-// Bootstrap 5 variable overrides
-// ------------------------------
-
 $custom-colors: (
   "ambient": #83b7d0
 );
 
-$theme-colors: map-merge($theme-colors, $custom-colors);
+// 3. Remainder of required Bootstrap stylesheets
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/utilities";
 
-$utilities: map-merge(
-  $utilities,
-  (
-    "color": map-merge(
-      map-get($utilities, "color"),
-      (
-        values: map-merge(
-          map-get(map-get($utilities, "color"), "values"),
-          (
-            $custom-colors
-          ),
-        ),
-      ),
-    ),
-  )
-);
+// 4. Default map overrides
+$theme-colors: map-merge($theme-colors, $custom-colors);
 
 $utilities: map-merge(
   $utilities,
@@ -58,18 +40,17 @@ $utilities: map-merge(
   )
 );
 
-@import "../node_modules/bootstrap/scss/utilities/api";
+// 5. Remainder of required parts
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
 
-
-// Bootstrap 5 optional imports
-// ----------------------------
-
+// 6. Other parts as needed (i.e. all of Bootstrap)
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+// 7. Generate classes based on the Sass map in `_utilities.scss`
+@import "../node_modules/bootstrap/scss/utilities/api";
 
-// reelyActive-specific CSS overrides
-// ----------------------------------
-
+// 8. reelyActive-specific CSS overrides
 html {
   position: relative;
   min-height: 100%;

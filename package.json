@@ -10,7 +10,7 @@
     "reelyActive",
     "web style guide"
   ],
-  "version": "1.1.6",
+  "version": "1.2.0",
   "engines": {
     "node": ">=10.0.0"
   },
@@ -18,8 +18,8 @@
   "scripts": {
     "css": "npm-run-all css-compile css-minify",
     "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:style/",
-    "css-minify": "cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output style/bootstrappyactive.min.css style/bootstrappyactive.css",
-    "fa": "webpack",
+    "css-minify": "cleancss --format breakWith=lf --source-map --source-map-inline-sources --output style/bootstrappyactive.min.css style/bootstrappyactive.css",
+    "fa": "webpack --mode=development",
     "js": "cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js js/bootstrappyactive.bundle.min.js && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map js/bootstrappyactive.bundle.min.js.map && cp node_modules/cytoscape/dist/cytoscape.min.js js/cytoscape.min.js"
   },
   "repository": {
@@ -31,13 +31,13 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "bootstrap": "^5.1.1",
-    "clean-css-cli": "^4.3.0",
-    "cytoscape": "^3.19.1",
+    "bootstrap": "^5.2.3",
+    "clean-css-cli": "^5.6.1",
+    "cytoscape": "^3.23.0",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.29.0",
-    "webpack": "^5.6.0",
-    "webpack-cli": "^4.2.0"
+    "sass": "^1.57.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "bugs": {
     "url": "https://github.com/reelyactive/web-style-guide/issues"
