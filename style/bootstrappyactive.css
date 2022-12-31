@@ -8134,42 +8134,42 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #0770a2 !important;
 }
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: #ff6900 !important;
 }
 
 .text-success {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
+  color: #aec844 !important;
 }
 
 .text-info {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important;
+  color: #5a5a5a !important;
 }
 
 .text-warning {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;
+  color: #ffc107 !important;
 }
 
 .text-danger {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
+  color: #dc3545 !important;
 }
 
 .text-light {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
+  color: #f8f9fa !important;
 }
 
 .text-dark {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+  color: #263238 !important;
 }
 
 .text-black {
@@ -8207,6 +8207,11 @@ textarea.form-control-lg {
   color: inherit !important;
 }
 
+.text-ambient {
+  --bs-text-opacity: 1;
+  color: #83b7d0 !important;
+}
+
 .text-opacity-25 {
   --bs-text-opacity: 0.25;
 }
@@ -8225,42 +8230,42 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #0770a2 !important;
 }
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #ff6900 !important;
 }
 
 .bg-success {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #aec844 !important;
 }
 
 .bg-info {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #5a5a5a !important;
 }
 
 .bg-warning {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #ffc107 !important;
 }
 
 .bg-danger {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #dc3545 !important;
 }
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #f8f9fa !important;
 }
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #263238 !important;
 }
 
 .bg-black {
@@ -8281,6 +8286,11 @@ textarea.form-control-lg {
 .bg-transparent {
   --bs-bg-opacity: 1;
   background-color: transparent !important;
+}
+
+.bg-ambient {
+  --bs-bg-opacity: 1;
+  background-color: #83b7d0 !important;
 }
 
 .bg-opacity-10 {
@@ -12037,42 +12047,42 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #0770a2 !important;
 }
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: #ff6900 !important;
 }
 
 .text-success {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
+  color: #aec844 !important;
 }
 
 .text-info {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important;
+  color: #5a5a5a !important;
 }
 
 .text-warning {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;
+  color: #ffc107 !important;
 }
 
 .text-danger {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
+  color: #dc3545 !important;
 }
 
 .text-light {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
+  color: #f8f9fa !important;
 }
 
 .text-dark {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+  color: #263238 !important;
 }
 
 .text-black {
@@ -12110,6 +12120,11 @@ textarea.form-control-lg {
   color: inherit !important;
 }
 
+.text-ambient {
+  --bs-text-opacity: 1;
+  color: #83b7d0 !important;
+}
+
 .text-opacity-25 {
   --bs-text-opacity: 0.25;
 }
@@ -12128,42 +12143,42 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #0770a2 !important;
 }
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #ff6900 !important;
 }
 
 .bg-success {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #aec844 !important;
 }
 
 .bg-info {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #5a5a5a !important;
 }
 
 .bg-warning {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #ffc107 !important;
 }
 
 .bg-danger {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #dc3545 !important;
 }
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #f8f9fa !important;
 }
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #263238 !important;
 }
 
 .bg-black {
@@ -12184,6 +12199,11 @@ textarea.form-control-lg {
 .bg-transparent {
   --bs-bg-opacity: 1;
   background-color: transparent !important;
+}
+
+.bg-ambient {
+  --bs-bg-opacity: 1;
+  background-color: #83b7d0 !important;
 }
 
 .bg-opacity-10 {
