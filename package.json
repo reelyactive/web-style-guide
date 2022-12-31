@@ -10,7 +10,7 @@
     "reelyActive",
     "web style guide"
   ],
-  "version": "1.2.0",
+  "version": "1.2.1",
   "engines": {
     "node": ">=10.0.0"
   },
@@ -19,7 +19,7 @@
     "css": "npm-run-all css-compile css-minify",
     "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:style/",
     "css-minify": "cleancss --format breakWith=lf --source-map --source-map-inline-sources --output style/bootstrappyactive.min.css style/bootstrappyactive.css",
-    "fa": "webpack --mode=development",
+    "fa": "webpack --mode=production",
     "js": "cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js js/bootstrappyactive.bundle.min.js && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map js/bootstrappyactive.bundle.min.js.map && cp node_modules/cytoscape/dist/cytoscape.min.js js/cytoscape.min.js"
   },
   "repository": {
