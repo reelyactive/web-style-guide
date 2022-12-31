@@ -102,6 +102,7 @@ import {
 
 // Import brand icons (in alphabetical order)
 import {
+    faAndroid as fabAndroid,
     faApple as fabApple,
     faBluetooth as fabBluetooth,
     faBootstrap as fabBootstrap,
@@ -228,6 +229,7 @@ library.add(
     fasWifi,
 
     // Brands
+    fabAndroid,
     fabApple,
     fabBluetooth,
     fabBootstrap,
