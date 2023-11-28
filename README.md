@@ -12,12 +12,18 @@ A webpage template based on this style guide is available at [reelyactive.github
 - [Font Awesome cheatsheet](https://reelyactive.github.io/web-style-guide/fontawesome-icons)
 
 
+Quick Start
+-----------
+
+Clone this repository (ex: click the Code button above and Download as ZIP).  Edit any of the index.html files in your favourite editor (ex: Notepad, TextEdit).  Open/refresh the index.html file in your favourite browser to see the results.
+
+
 File Structure
 --------------
 
 The files are organised in the following hierarchy:
 
-| Directory | File(s)          | Description                                    |
+| Directory | File(s)          | Description                                   |
 |:----------|:-----------------|:----------------------------------------------|
 | /         | .html            | All the content                               |
 | /images/  | .jpg, .png, etc. | All images and graphics supporting the content|
@@ -37,6 +43,8 @@ The core files are as follows:
 
 Building Bootstrap and Font Awesome
 -----------------------------------
+
+_This step is only required when customising the scss or icons!_
 
 Install the devDependencies, with the following executable from the command line:
 - sass
