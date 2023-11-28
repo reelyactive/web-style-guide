@@ -15,7 +15,13 @@ A webpage template based on this style guide is available at [reelyactive.github
 Quick Start
 -----------
 
-Clone this repository (ex: click the Code button above and Download as ZIP).  Edit any of the index.html files in your favourite editor (ex: Notepad, TextEdit).  Open/refresh the index.html file in your favourite browser to see the results.
+Clone this repository (ex: click the Code button above and Download as ZIP).
+
+Edit any of the `index.html` files in your favourite editor (ex: Notepad, TextEdit).
+
+Open/refresh the `index.html` file in your favourite browser to see the results.
+
+All of the supporting JavaScripts (JS) and Cascading Style Sheets (CSS) are pre-built and included in the [file structure](#file-structure) below.
 
 
 File Structure
