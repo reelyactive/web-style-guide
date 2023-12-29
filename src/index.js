@@ -2,6 +2,7 @@ import { library, dom } from '@fortawesome/fontawesome-svg-core';
 
 // Import solid weight icons (in alphabetical order)
 import {
+    faAdjust as fasAdjust,
     faArrowCircleUp as fasArrowCircleUp,
     faBan as fasBan,
     faBarcode as fasBarcode,
@@ -56,6 +57,7 @@ import {
     faMapMarkedAlt as fasMapMarkedAlt,
     faMapPin as fasMapPin,
     faMobileAlt as fasMobileAlt,
+    faMoon as fasMoon,
     faMousePointer as fasMousePointer,
     faNetworkWired as fasNetworkWired,
     faPeopleArrows as fasPeopleArrows,
@@ -135,6 +137,7 @@ import {
 // Add icons to library (in alphabetical order)
 library.add(
     // Solid
+    fasAdjust,
     fasArrowCircleUp,
     fasBan,
     fasBarcode,
@@ -189,6 +192,7 @@ library.add(
     fasMapMarkedAlt,
     fasMapPin,
     fasMobileAlt,
+    fasMoon,
     fasMousePointer,
     fasNetworkWired,
     fasPeopleArrows,
