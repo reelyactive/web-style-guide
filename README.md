@@ -73,6 +73,12 @@ Then build (and minify) the Font Awesome subset with:
 The built files are copied to the /js and /style directories.
 
 
+Bootstrap 5 Colour Modes
+------------------------
+
+Version 1.3 of this __web-style-guide__ adopts Bootstrap 5.3 which supports [Color Modes (aka Themes)](https://getbootstrap.com/docs/5.3/customize/color-modes/).  By including the `js/color-modes.js` module, which is adapted from [twbs/examples/color-modes](https://github.com/twbs/examples/tree/main/color-modes), the `prefers-color-scheme` variable is detected from the browser to automatically switch between light/dark mode.  A manual override is provided in the top nav bar of the examples in this style guide, which uses Font Awesome rather than Bootstrap icons, hence the modification of `js/color-modes.js`.
+
+
 License
 -------
 
