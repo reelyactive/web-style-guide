@@ -49,6 +49,7 @@
   --bs-danger-text-emphasis: #58151c;
   --bs-light-text-emphasis: #495057;
   --bs-dark-text-emphasis: #495057;
+  --bs-ambient-text-emphasis: #425c68;
   --bs-primary-bg-subtle: #cde2ec;
   --bs-secondary-bg-subtle: #ffe1cc;
   --bs-success-bg-subtle: #eff4da;
@@ -57,6 +58,7 @@
   --bs-danger-bg-subtle: #f8d7da;
   --bs-light-bg-subtle: #fcfcfd;
   --bs-dark-bg-subtle: #ced4da;
+  --bs-ambient-bg-subtle: #e0edf4;
   --bs-primary-border-subtle: #9cc6da;
   --bs-secondary-border-subtle: #ffc399;
   --bs-success-border-subtle: #dfe9b4;
@@ -65,6 +67,7 @@
   --bs-danger-border-subtle: #f1aeb5;
   --bs-light-border-subtle: #e9ecef;
   --bs-dark-border-subtle: #adb5bd;
+  --bs-ambient-border-subtle: #83b7d0;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -145,6 +148,7 @@
   --bs-danger-text-emphasis: #ea868f;
   --bs-light-text-emphasis: #f8f9fa;
   --bs-dark-text-emphasis: #dee2e6;
+  --bs-ambient-text-emphasis: #83b7d0;
   --bs-primary-bg-subtle: #011620;
   --bs-secondary-bg-subtle: #331500;
   --bs-success-bg-subtle: #23280e;
@@ -153,6 +157,7 @@
   --bs-danger-bg-subtle: #2c0b0e;
   --bs-light-bg-subtle: #343a40;
   --bs-dark-bg-subtle: #1a1d20;
+  --bs-ambient-bg-subtle: #212e34;
   --bs-primary-border-subtle: #044361;
   --bs-secondary-border-subtle: #993f00;
   --bs-success-border-subtle: #687829;
@@ -161,6 +166,7 @@
   --bs-danger-border-subtle: #842029;
   --bs-light-border-subtle: #495057;
   --bs-dark-border-subtle: #343a40;
+  --bs-ambient-border-subtle: #83b7d0;
   --bs-heading-color: inherit;
   --bs-link-color: #6aa9c7;
   --bs-link-hover-color: #88bad2;
@@ -232,6 +238,7 @@
   --bs-danger-text-emphasis: #58151c;
   --bs-light-text-emphasis: #495057;
   --bs-dark-text-emphasis: #495057;
+  --bs-ambient-text-emphasis: #425c68;
   --bs-primary-bg-subtle: #cde2ec;
   --bs-secondary-bg-subtle: #ffe1cc;
   --bs-success-bg-subtle: #eff4da;
@@ -240,6 +247,7 @@
   --bs-danger-bg-subtle: #f8d7da;
   --bs-light-bg-subtle: #fcfcfd;
   --bs-dark-bg-subtle: #ced4da;
+  --bs-ambient-bg-subtle: #e0edf4;
   --bs-primary-border-subtle: #9cc6da;
   --bs-secondary-border-subtle: #ffc399;
   --bs-success-border-subtle: #dfe9b4;
@@ -248,6 +256,7 @@
   --bs-danger-border-subtle: #f1aeb5;
   --bs-light-border-subtle: #e9ecef;
   --bs-dark-border-subtle: #adb5bd;
+  --bs-ambient-border-subtle: #83b7d0;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -328,6 +337,7 @@
   --bs-danger-text-emphasis: #ea868f;
   --bs-light-text-emphasis: #f8f9fa;
   --bs-dark-text-emphasis: #dee2e6;
+  --bs-ambient-text-emphasis: #83b7d0;
   --bs-primary-bg-subtle: #011620;
   --bs-secondary-bg-subtle: #331500;
   --bs-success-bg-subtle: #23280e;
@@ -336,6 +346,7 @@
   --bs-danger-bg-subtle: #2c0b0e;
   --bs-light-bg-subtle: #343a40;
   --bs-dark-bg-subtle: #1a1d20;
+  --bs-ambient-bg-subtle: #212e34;
   --bs-primary-border-subtle: #044361;
   --bs-secondary-border-subtle: #993f00;
   --bs-success-border-subtle: #687829;
@@ -344,6 +355,7 @@
   --bs-danger-border-subtle: #842029;
   --bs-light-border-subtle: #495057;
   --bs-dark-border-subtle: #343a40;
+  --bs-ambient-border-subtle: #83b7d0;
   --bs-heading-color: inherit;
   --bs-link-color: #6aa9c7;
   --bs-link-hover-color: #88bad2;

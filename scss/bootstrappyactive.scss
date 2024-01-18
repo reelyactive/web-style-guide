@@ -76,16 +76,39 @@ $utilities: map-merge(
   )
 );
 
-// 5. Remainder of required parts
+// 5. Add custom color to new theme maps (light & dark modes)
+// https://getbootstrap.com/docs/5.3/customize/color-modes/#adding-theme-colors
+$custom-colors-text: ("ambient": #425c68);
+$custom-colors-bg-subtle: ("ambient": #e0edf4);
+$custom-colors-border-subtle: ("ambient": #83b7d0);
+
+$theme-colors-text: map-merge($theme-colors-text, $custom-colors-text);
+$theme-colors-bg-subtle: map-merge($theme-colors-bg-subtle,
+                                   $custom-colors-bg-subtle);
+$theme-colors-border-subtle: map-merge($theme-colors-border-subtle,
+                                       $custom-colors-border-subtle);
+
+$custom-colors-text-dark: ("ambient": #83b7d0);
+$custom-colors-bg-subtle-dark: ("ambient": #212e34);
+$custom-colors-border-subtle-dark: ("ambient": #83b7d0);
+
+$theme-colors-text-dark: map-merge($theme-colors-text-dark,
+                                   $custom-colors-text-dark);
+$theme-colors-bg-subtle-dark: map-merge($theme-colors-bg-subtle-dark,
+                                        $custom-colors-bg-subtle-dark);
+$theme-colors-border-subtle-dark: map-merge($theme-colors-border-subtle-dark,
+                                            $custom-colors-border-subtle-dark);
+
+// 6. Remainder of required parts
 @import "../node_modules/bootstrap/scss/root";
 
-// 6. Other parts as needed (i.e. all of Bootstrap)
+// 7. Other parts as needed (i.e. all of Bootstrap)
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// 7. Generate classes based on the Sass map in `_utilities.scss`
+// 8. Generate classes based on the Sass map in `_utilities.scss`
 @import "../node_modules/bootstrap/scss/utilities/api";
 
-// 8. reelyActive-specific CSS overrides
+// 9. reelyActive-specific CSS overrides
 html {
   position: relative;
   min-height: 100%;
