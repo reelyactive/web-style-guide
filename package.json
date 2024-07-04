@@ -10,7 +10,7 @@
     "reelyActive",
     "web style guide"
   ],
-  "version": "1.3.1",
+  "version": "1.3.2",
   "engines": {
     "node": ">=10.0.0"
   },
