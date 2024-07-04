@@ -3,7 +3,7 @@ reelyActive Web Style Guide
 
 Style guide for reelyActive webpages and web apps, based on [Bootstrap 5](https://getbootstrap.com).  Everything is open source and [MIT License](https://opensource.org/licenses/MIT).  We believe in an open Internet of Things.
 
-![Web Style Guide Screenshot](https://reelyactive.github.io/web-style-guide/images/screenshot.png)
+![Web Style Guide Screenshot](https://reelyactive.github.io/web-style-guide/images/screenshot.gif)
 
 
 A webpage template based on this style guide is available at [reelyactive.github.io/web-style-guide/](https://reelyactive.github.io/web-style-guide/), including the following additional example pages:
