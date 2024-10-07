@@ -101,6 +101,7 @@ import {
     faUserTag as fasUserTag,
     faUserTie as fasUserTie,
     faVirus as fasVirus,
+    faVolumeUp as fasVolumeUp,
     faWalking as fasWalking,
     faWater as fasWater,
     faWifi as fasWifi
@@ -237,6 +238,7 @@ library.add(
     fasUserTag,
     fasUserTie,
     fasVirus,
+    fasVolumeUp,
     fasWalking,
     fasWater,
     fasWifi,
