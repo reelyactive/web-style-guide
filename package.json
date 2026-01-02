@@ -10,7 +10,7 @@
     "reelyActive",
     "web style guide"
   ],
-  "version": "1.3.5",
+  "version": "1.3.6",
   "engines": {
     "node": ">=10.0.0"
   },
@@ -35,8 +35,8 @@
     "clean-css-cli": "^5.6.3",
     "cytoscape": "^3.33.1",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.89.2",
-    "webpack": "^5.100.2",
+    "sass": "^1.97.1",
+    "webpack": "^5.104.1",
     "webpack-cli": "^5.1.4"
   },
   "bugs": {
