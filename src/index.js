@@ -21,6 +21,7 @@ import {
     faCloud as fasCloud,
     faCode as fasCode,
     faCog as fasCog,
+    faComment as fasComment,
     faCompass as fasCompass,
     faCompressAlt as fasCompressAlt,
     faCopy as fasCopy,
@@ -37,6 +38,7 @@ import {
     faExternalLinkAlt as fasExternalLinkAlt,
     faEye as fasEye,
     faFilter as fasFilter,
+    faFire as fasFire,
     faFolder as fasFolder,
     faFolderPlus as fasFolderPlus,
     faHandHoldingHeart as fasHandHoldingHeart,
@@ -53,6 +55,7 @@ import {
     faLayerGroup as fasLayerGroup,
     faLightbulb as fasLightbulb,
     faLink as fasLink,
+    faLock as fasLock,
     faMagnet as fasMagnet,
     faMapMarkedAlt as fasMapMarkedAlt,
     faMapPin as fasMapPin,
@@ -80,6 +83,7 @@ import {
     faSitemap as fasSitemap,
     faSkullCrossbones as fasSkullCrossbones,
     faSlidersH as fasSlidersH,
+    faSmog as fasSmog,
     faSort as fasSort,
     faStar as fasStar,
     faStopwatch as fasStopwatch,
@@ -104,7 +108,8 @@ import {
     faVolumeUp as fasVolumeUp,
     faWalking as fasWalking,
     faWater as fasWater,
-    faWifi as fasWifi
+    faWifi as fasWifi,
+    faWind as fasWind
 } from '@fortawesome/free-solid-svg-icons';
 
 // Import brand icons (in alphabetical order)
@@ -158,6 +163,7 @@ library.add(
     fasCloud,
     fasCode,
     fasCog,
+    fasComment,
     fasCompass,
     fasCompressAlt,
     fasCopy,
@@ -174,6 +180,7 @@ library.add(
     fasExternalLinkAlt,
     fasEye,
     fasFilter,
+    fasFire,
     fasFolder,
     fasFolderPlus,
     fasHandHoldingHeart,
@@ -190,6 +197,7 @@ library.add(
     fasLayerGroup,
     fasLightbulb,
     fasLink,
+    fasLock,
     fasMagnet,
     fasMapMarkedAlt,
     fasMapPin,
@@ -217,6 +225,7 @@ library.add(
     fasSitemap,
     fasSkullCrossbones,
     fasSlidersH,
+    fasSmog,
     fasSort,
     fasStar,
     fasStopwatch,
@@ -242,6 +251,7 @@ library.add(
     fasWalking,
     fasWater,
     fasWifi,
+    fasWind,
 
     // Brands
     fabAndroid,
